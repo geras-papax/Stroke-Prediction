@@ -54,7 +54,8 @@ Using [**Random Forest**](https://en.wikipedia.org/wiki/Random_forest), we predi
 ![ ](https://github.com/karavokyrismichail/Stroke-Prediction---Random-Forest/blob/main/graphs/scores-100.png)
 
 
-
+## Tech Stack
+Python, VSC, pandas, Keras, Matplotlib, math, seaborn, Numpy, scikit-learn
 
 ## Team
 - [Michail Karavokyris](https://github.com/karavokyrismichail)
