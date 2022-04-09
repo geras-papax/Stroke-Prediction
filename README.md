@@ -35,24 +35,22 @@ Using [**Random Forest**](https://en.wikipedia.org/wiki/Random_forest), we predi
 
 ![ ](https://github.com/karavokyrismichail/Stroke-Prediction---Random-Forest/blob/main/graphs/multiplots.png)
 
-#### Prediction Results of each method
+### Prediction Results of each method
 
-![ ](https://github.com/karavokyrismichail/Stroke-Prediction---Random-Forest/blob/main/graphs/remove.png)
-![ ](https://github.com/karavokyrismichail/Stroke-Prediction---Random-Forest/blob/main/graphs/mean.png)
-![ ](https://github.com/karavokyrismichail/Stroke-Prediction---Random-Forest/blob/main/graphs/linear%20regression.png)
-![ ](https://github.com/karavokyrismichail/Stroke-Prediction---Random-Forest/blob/main/graphs/knn.png)
+<p float="left">
+  <img src="https://github.com/karavokyrismichail/Stroke-Prediction---Random-Forest/blob/main/graphs/remove.png" width="500" />
+  <img src="https://github.com/karavokyrismichail/Stroke-Prediction---Random-Forest/blob/main/graphs/mean.png" width="500" /> 
+  <img src="https://github.com/karavokyrismichail/Stroke-Prediction---Random-Forest/blob/main/graphs/linear%20regression.png" width="500" />
+  <img src="https://github.com/karavokyrismichail/Stroke-Prediction---Random-Forest/blob/main/graphs/knn.png" width="500" />
+</p>
+
 
 ### Performance Results (f1 score, precision and recall)
-
-#### n_estimators = 5
-![ ](https://github.com/karavokyrismichail/Stroke-Prediction---Random-Forest/blob/main/graphs/scores.png)
-#### n_estimators = 10 
-![ ](https://github.com/karavokyrismichail/Stroke-Prediction---Random-Forest/blob/main/graphs/scores-10.png)
-#### n_estimators = 20
-![ ](https://github.com/karavokyrismichail/Stroke-Prediction---Random-Forest/blob/main/graphs/scores-20.png)
-#### n_estimators = 100
-![ ](https://github.com/karavokyrismichail/Stroke-Prediction---Random-Forest/blob/main/graphs/scores-100.png)
-
+n_estimators = 5          |  n_estimators = 10
+:-------------------------:|:-------------------------:
+![](https://github.com/karavokyrismichail/Stroke-Prediction---Random-Forest/blob/main/graphs/scores.png)  |  ![](https://github.com/karavokyrismichail/Stroke-Prediction---Random-Forest/blob/main/graphs/scores-10.png)
+**n_estimators = 20**     |  **n_estimators = 100**
+![](https://github.com/karavokyrismichail/Stroke-Prediction---Random-Forest/blob/main/graphs/scores-20.png)  |  ![](https://github.com/karavokyrismichail/Stroke-Prediction---Random-Forest/blob/main/graphs/scores-100.png)
 
 ## Tech Stack
 Python, VSC, pandas, Keras, Matplotlib, math, seaborn, Numpy, scikit-learn
