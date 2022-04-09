@@ -18,7 +18,7 @@ Dataset Analysis - With the **Attributes-Dataset**, we created some graphs that 
 We try to solve the Empty Values problem of the **healthcare dataset** with 4 methods:
 
 1. **Remove** columns with empty values
-2. **Replace** empty values with mean value of the column
+2. **Replace** empty values with **Mean Value** of the column
 3. [**Linear Regression**](https://en.wikipedia.org/wiki/Linear_regression)
 4. [**K-Nearest-Neighbors**](https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm)
 
@@ -37,13 +37,11 @@ Using [**Random Forest**](https://en.wikipedia.org/wiki/Random_forest), we predi
 
 ### Prediction Results of each method
 
-<p float="left">
-  <img src="https://github.com/karavokyrismichail/Stroke-Prediction---Random-Forest/blob/main/graphs/remove.png" width="500" />
-  <img src="https://github.com/karavokyrismichail/Stroke-Prediction---Random-Forest/blob/main/graphs/mean.png" width="500" /> 
-  <img src="https://github.com/karavokyrismichail/Stroke-Prediction---Random-Forest/blob/main/graphs/linear%20regression.png" width="500" />
-  <img src="https://github.com/karavokyrismichail/Stroke-Prediction---Random-Forest/blob/main/graphs/knn.png" width="500" />
-</p>
-
+Remove Empty Values    |  Replace with Mean Value
+:-------------------------:|:-------------------------:
+![](https://github.com/karavokyrismichail/Stroke-Prediction---Random-Forest/blob/main/graphs/remove.png)  |  ![](https://github.com/karavokyrismichail/Stroke-Prediction---Random-Forest/blob/main/graphs/mean.png)
+**Linear Regression**     |  **K-Nearest-Neighbors**
+![](https://github.com/karavokyrismichail/Stroke-Prediction---Random-Forest/blob/main/graphs/linear%20regression.png)  |  ![](https://github.com/karavokyrismichail/Stroke-Prediction---Random-Forest/blob/main/graphs/knn.png)
 
 ### Performance Results (f1 score, precision and recall)
 n_estimators = 5          |  n_estimators = 10
